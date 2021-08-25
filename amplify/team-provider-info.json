@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-8019-dev-155628-authRole",
+      "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-8019-dev-155628-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-8019-dev-155628-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-8019-dev-155628-deployment",
+      "UnauthRoleName": "amplify-8019-dev-155628-unauthRole",
+      "StackName": "amplify-8019-dev-155628",
+      "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-8019-dev-155628/c20460a0-051d-11ec-8bd8-12ff31b78b4f",
+      "AmplifyAppId": "dsoi5mf6qu9rf",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-8019-dev-155628-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "cognitofc149159": {}
+      },
+      "function": {
+        "8019hello": {
+          "deploymentBucketName": "amplify-8019-dev-155628-deployment",
+          "s3Key": "amplify-builds/8019hello-6933725963737a78694c-build.zip"
+        },
+        "8019hellopost": {
+          "deploymentBucketName": "amplify-8019-dev-155628-deployment",
+          "s3Key": "amplify-builds/8019hellopost-4e333655784c4a61462b-build.zip"
+        }
+      }
+    }
+  }
+}

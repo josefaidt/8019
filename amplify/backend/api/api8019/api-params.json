@@ -1,0 +1,61 @@
+{
+    "paths": [
+        {
+            "name": "/hello",
+            "lambdaFunction": "8019hello",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/GET"
+                ]
+            },
+            "policyResourceName": "/hello"
+        },
+        {
+            "name": "/hello-post",
+            "lambdaFunction": "8019hellopost",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST"
+                ]
+            },
+            "policyResourceName": "/hello-post"
+        }
+    ],
+    "resourceName": "api8019",
+    "apiName": "api8019",
+    "functionArns": [
+        {
+            "lambdaFunction": "8019hello"
+        },
+        {
+            "lambdaFunction": "8019hellopost"
+        }
+    ],
+    "privacy": {
+        "auth": 2,
+        "unauth": 0,
+        "authRoleName": "amplify-8019-dev-155628-authRole",
+        "unAuthRoleName": "amplify-8019-dev-155628-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "8019hello",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "8019hellopost",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "761f7c9c"
+}
